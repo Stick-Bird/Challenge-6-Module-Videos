@@ -12,6 +12,7 @@ struct Challenge_6_mod_5App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(VideoModel())
         }
     }
 }
